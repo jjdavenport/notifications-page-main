@@ -22,10 +22,16 @@ markAllBtn.addEventListener("click", () => {
 function counter() {
   selectNotification.forEach((selectNotification) => {
     selectNotification.addEventListener("click", () => {
-      notificationCounter.innerText = counterNumber - 1;
+      if (counterNumber > 0) {
+        counterNumber--;
+        notificationCounter.innerText = counterNumber;
+        selectNotification.classList.remove("notification-active");
+      }
     });
   });
 }
+
+counter();
 
 function counterZero() {
   notificationCounter.innerText = counterNumber;
