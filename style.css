@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.notifications {
+  display: flex;
+  flex-direction: column;
+}
+
+.notification {
+  border: none;
+  text-align: left;
+}
+
+.notification-active {
+  background-color: aqua;
+}

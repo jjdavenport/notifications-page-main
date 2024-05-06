@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./main.js" defer></script>
+
+    <title>Frontend Mentor | Notifications page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="header">
+        <h1>Notifications <span id="notification-counter">3</span></h1>
+        <button id="mark-all">Mark all as read</button>
+      </div>
+      <div class="notifications">
+        <button class="notification">
+          Mark Webber reacted to your recent post My first tournament today! 1m
+          ago</button
+        ><button class="notification">Angela Gray followed you 5m ago</button>
+        <button class="notification">
+          Jacob Thompson has joined your group Chess Club 1 day ago</button
+        ><button class="notification">
+          Rizky Hasanuddin sent you a private message 5 days ago
+          <p class="box">
+            Hello, thanks for setting up the Chess Club. I've been a member for
+            a few weeks now and I'm already having lots of fun and improving my
+            game.
+          </p></button
+        ><button class="notification">
+          Kimberly Smith commented on your picture 1 week ago</button
+        ><button class="notification">
+          Nathan Peterson reacted to your recent post 5 end-game strategies to
+          increase your win rate 2 weeks ago</button
+        ><button class="notification">
+          Anna Kim left the group Chess Club 2 weeks ago
+        </button>
+      </div>
+    </main>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/jjdavenport">jjdavenport</a>.
+    </div>
+  </body>
+</html>
