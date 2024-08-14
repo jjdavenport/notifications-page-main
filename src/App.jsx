@@ -1,6 +1,6 @@
 import "./App.css";
 import Header from "./components/header";
-import Main from "./components/main";
+import Notifications from "./components/notifications";
 import Footer from "./components/footer";
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <>
       <main className="font-custom p-4">
         <Header />
-        <Main />
+        <Notifications />
         <Footer />
       </main>
     </>
