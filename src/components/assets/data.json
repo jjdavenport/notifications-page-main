@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Mark Webber",
+    "action": "reacted to your recent post",
+    "post": "My first tournament today!",
+    "group": "",
+    "time": "1m ago",
+    "profilePicture": "public/images/avatar-mark-webber.webp",
+    "read": false,
+    "comment": false,
+    "image": ""
+  },
+  {
+    "name": "Angela Gray",
+    "action": "followed you",
+    "post": "",
+    "group": "",
+    "time": "5m ago",
+    "profilePicture": "public/images/avatar-angela-gray.webp",
+    "read": false,
+    "comment": false,
+    "image": ""
+  },
+  {
+    "name": "Jacob Thompson",
+    "action": "has joined your group",
+    "post": "",
+    "group": "Chess Club",
+    "time": "1 day ago",
+    "profilePicture": "public/images/avatar-jacob-thompson.webp",
+    "read": false,
+    "comment": false,
+    "image": ""
+  },
+  {
+    "name": "Rizky Hasanuddin",
+    "action": "sent you a private message",
+    "post": "",
+    "group": "",
+    "time": "5 days ago",
+    "profilePicture": "public/images/avatar-rizky-hasanuddin.webp",
+    "read": true,
+    "comment": "Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.",
+    "image": ""
+  },
+  {
+    "name": "Kimberly Smith",
+    "action": "commented on your picture",
+    "post": "",
+    "group": "",
+    "time": "1 week ago",
+    "profilePicture": "public/images/avatar-kimberly-smith.webp",
+    "read": true,
+    "comment": false,
+    "image": "public/images/image-chess.webp"
+  },
+  {
+    "name": "Nathan Peterson",
+    "action": "reacted to your recent post",
+    "post": "5 end-game strategies to increase your win rate",
+    "group": "",
+    "time": "2 weeks ago",
+    "profilePicture": "public/images/avatar-nathan-peterson.webp",
+    "read": true,
+    "comment": false,
+    "image": ""
+  },
+  {
+    "name": "Anna Kim",
+    "action": "left the group",
+    "post": "",
+    "group": "Chess Club",
+    "time": "2 weeks ago",
+    "profilePicture": "public/images/avatar-anna-kim.webp",
+    "read": true,
+    "comment": false,
+    "image": ""
+  }
+]
