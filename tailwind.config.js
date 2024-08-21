@@ -4,9 +4,11 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        custom: ["plus jakarta sans", "san-serif"],
+        custom: ["plus jakarta sans", "sans-serif"],
       },
       colors: {
+        red: "hsl(1, 90%, 64%)",
+        blue: "hsl(219, 85%, 26%)",
         white: "hsl(0, 0%, 100%)",
         veryLightGrayishBlue: "hsl(210, 60%, 98%)",
         lightGrayishBlue1: "hsl(211, 68%, 94%)",
