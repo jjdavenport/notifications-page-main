@@ -1,7 +1,6 @@
 import { useState } from "react";
-import data from "./assets/data.json";
 
-const Notifications = ({ click, read }) => {
+const Notifications = ({ data, click, read }) => {
   const [clickedNotifications, setClickedNotifications] = useState(new Set());
 
   const handleClick = (name) => {
