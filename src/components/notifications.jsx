@@ -1,13 +1,25 @@
-const Notifications = ({ data, click, read }) => {
+import { useState } from "react";
+import data from "./assets/data.json";
+
+const Notifications = ({ click, read }) => {
+  const [clickedNotifications, setClickedNotifications] = useState(new Set());
+
+  const handleClick = (name) => {
+    read(name);
+    setClickedNotifications((prev) => new Set(prev).add(name));
+  };
+
   return (
     <>
       <section className="flex flex-col gap-4">
         {data.map((i) => (
           <div className="flex flex-col" key={i.name}>
-            {i.read === false ? (
+            {i.read === false && !clickedNotifications.has(i.name) ? (
               <button
-                className={`${click.includes(i.name) ? "bg-white" : "bg-blue-900"} flex flex-1`}
-                onClick={() => read(i.name)}
+                className={`flex flex-1 cursor-pointer ${
+                  click.includes(i.name) ? "bg-white" : "bg-blue-900"
+                }`}
+                onClick={() => handleClick(i.name)}
               >
                 <img src={i.profilePicture} alt="Profile" />
                 <div className="flex gap-1">
@@ -17,10 +29,13 @@ const Notifications = ({ data, click, read }) => {
                   <a>{i.group}</a>
                   <span>{i.time}</span>
                   {i.image && <img src={i.image} alt="Notification" />}
+                  {!click.includes(i.name) && (
+                    <span className="text-red-600">•</span>
+                  )}
                 </div>
               </button>
             ) : (
-              <div className="flex-10 flex">
+              <div className="flex flex-1 bg-gray-200">
                 <img src={i.profilePicture} alt="Profile" />
                 <div className="flex gap-1">
                   <a>{i.name}</a>

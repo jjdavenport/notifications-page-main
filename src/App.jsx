@@ -17,12 +17,12 @@ function App() {
   ).length;
 
   const markAllAsRead = () => {
-    setClick(data.map((item) => item.name));
+    setClick(data.map((i) => i.name));
   };
 
   return (
     <>
-      <main className="p-4 font-custom">
+      <main className="flex flex-col gap-2 p-4 font-custom">
         <Header unreadCount={unreadCount} markAllAsRead={markAllAsRead} />
         <Notifications data={data} click={click} read={read} />
         <Footer />

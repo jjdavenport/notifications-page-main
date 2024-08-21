@@ -2,10 +2,10 @@ const Header = ({ unreadCount, markAllAsRead }) => {
   return (
     <>
       <header className="flex justify-between">
-        <h1>
-          Notifications
+        <div className="flex gap-2">
+          <h1>Notifications</h1>
           {unreadCount > 0 && <span>{unreadCount}</span>}
-        </h1>
+        </div>
         <button onClick={markAllAsRead}>Mark all as read</button>
       </header>
     </>
