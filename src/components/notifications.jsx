@@ -1,19 +1,10 @@
-import data from "./assets/data.json";
-import { useState } from "react";
-
-const Notifications = () => {
-  const [click, setClick] = useState([]);
-
-  const read = (name) => {
-    setClick((prev) => [...prev, name]);
-  };
-
+const Notifications = ({ data, click, read }) => {
   return (
     <>
       <section className="flex flex-col gap-4">
         {data.map((i) => (
           <div className="flex flex-col" key={i.name}>
-            {i.read === "n" ? (
+            {i.read === false ? (
               <button
                 className={`${click.includes(i.name) ? "bg-white" : "bg-blue-900"} flex flex-1`}
                 onClick={() => read(i.name)}

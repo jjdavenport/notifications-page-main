@@ -4,15 +4,18 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "devv": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "devt": "npx tailwindcss -i ./src/index.css -o ./src/app.css --watch"
+    "devt": "npx tailwindcss -i ./src/index.css -o ./src/app.css --watch",
+    "dev": "npm-run-all --parallel devv devt"
   },
   "dependencies": {
+    "all": "^0.0.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "run": "^1.5.0",
     "tailwindcss": "^3.4.10"
   },
   "devDependencies": {
@@ -25,8 +28,10 @@
     "eslint-plugin-react-hooks": "^5.1.0-rc.0",
     "eslint-plugin-react-refresh": "^0.4.9",
     "globals": "^15.9.0",
+    "npm-run-all": "^4.1.5",
     "prettier": "^3.3.3",
     "prettier-plugin-tailwindcss": "^0.6.6",
+    "run-all": "^1.0.1",
     "vite": "^5.4.0"
   }
 }

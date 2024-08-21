@@ -5,8 +5,8 @@
     "post": "My first tournament today!",
     "group": "",
     "time": "1m ago",
-    "profilePicture": "images/avatar-mark-webber.webp",
-    "read": "n",
+    "profilePicture": "/images/avatar-mark-webber.webp",
+    "read": false,
     "comment": "",
     "image": ""
   },
@@ -16,8 +16,8 @@
     "post": "",
     "group": "",
     "time": "5m ago",
-    "profilePicture": "images/avatar-angela-gray.webp",
-    "read": "n",
+    "profilePicture": "/images/avatar-angela-gray.webp",
+    "read": false,
     "comment": "",
     "image": ""
   },
@@ -27,8 +27,8 @@
     "post": "",
     "group": "Chess Club",
     "time": "1 day ago",
-    "profilePicture": "images/avatar-jacob-thompson.webp",
-    "read": "n",
+    "profilePicture": "/images/avatar-jacob-thompson.webp",
+    "read": false,
     "comment": "",
     "image": ""
   },
@@ -38,8 +38,8 @@
     "post": "",
     "group": "",
     "time": "5 days ago",
-    "profilePicture": "images/avatar-rizky-hasanuddin.webp",
-    "read": "y",
+    "profilePicture": "/images/avatar-rizky-hasanuddin.webp",
+    "read": true,
     "comment": "Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.",
     "image": ""
   },
@@ -49,10 +49,10 @@
     "post": "",
     "group": "",
     "time": "1 week ago",
-    "profilePicture": "images/avatar-kimberly-smith.webp",
-    "read": "y",
+    "profilePicture": "/images/avatar-kimberly-smith.webp",
+    "read": true,
     "comment": "",
-    "image": "images/image-chess.webp"
+    "image": "/images/image-chess.webp"
   },
   {
     "name": "Nathan Peterson",
@@ -60,8 +60,8 @@
     "post": "5 end-game strategies to increase your win rate",
     "group": "",
     "time": "2 weeks ago",
-    "profilePicture": "images/avatar-nathan-peterson.webp",
-    "read": "y",
+    "profilePicture": "/images/avatar-nathan-peterson.webp",
+    "read": true,
     "comment": "",
     "image": ""
   },
@@ -71,8 +71,8 @@
     "post": "",
     "group": "Chess Club",
     "time": "2 weeks ago",
-    "profilePicture": "images/avatar-anna-kim.webp",
-    "read": "y",
+    "profilePicture": "/images/avatar-anna-kim.webp",
+    "read": true,
     "comment": "",
     "image": ""
   }
