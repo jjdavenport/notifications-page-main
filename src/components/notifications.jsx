@@ -94,7 +94,7 @@ const Notifications = ({ data, click, read }) => {
               </div>
             )}
             {!i.comment === false && (
-              <p className="rounded-lg p-4 hover:cursor-pointer hover:bg-veryLightGrayishBlue">
+              <p className="rounded-lg border border-lightGrayishBlue1 p-4 hover:cursor-pointer hover:bg-veryLightGrayishBlue">
                 {i.comment}
               </p>
             )}

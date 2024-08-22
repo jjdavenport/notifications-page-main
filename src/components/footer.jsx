@@ -1,6 +1,8 @@
-const Footer = () => {
+const Footer = ({ className }) => {
   return (
-    <footer className="w-full text-center text-sm text-grayishBlue">
+    <footer
+      className={`${className} w-full text-center text-sm font-medium text-grayishBlue`}
+    >
       <p>
         Challenge by{" "}
         <a
