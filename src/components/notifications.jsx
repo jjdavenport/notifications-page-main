@@ -42,7 +42,7 @@ const Notifications = ({ data, click, read }) => {
                       >
                         {i.group}
                       </a>
-                      {i.read === false && (
+                      {!click.includes(i.name) && i.read === false && (
                         <span className="font-black text-red">•</span>
                       )}
                     </div>
@@ -50,8 +50,8 @@ const Notifications = ({ data, click, read }) => {
                       {i.time}
                     </span>
                   </div>
-                  {!i.image === "false" && (
-                    <img className="cursor-pointer" src={i.image} />
+                  {!i.image === false && (
+                    <img className="w-12 cursor-pointer" src={i.imageSrc} />
                   )}
                 </div>
               </button>
@@ -79,7 +79,7 @@ const Notifications = ({ data, click, read }) => {
                       >
                         {i.group}
                       </a>
-                      {i.read === false && (
+                      {!click.includes(i.name) && i.read === false && (
                         <span className="font-black text-red">•</span>
                       )}
                     </div>
@@ -87,8 +87,8 @@ const Notifications = ({ data, click, read }) => {
                       {i.time}
                     </span>
                   </div>
-                  {!i.image === "false" && (
-                    <img className="w-12 cursor-pointer" src={i.image} />
+                  {!i.image === false && (
+                    <img className="w-12 cursor-pointer" src={i.imageSrc} />
                   )}
                 </div>
               </div>

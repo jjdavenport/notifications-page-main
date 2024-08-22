@@ -5,10 +5,11 @@
     "post": "My first tournament today!",
     "group": "",
     "time": "1m ago",
-    "profilePicture": "public/images/avatar-mark-webber.webp",
+    "profilePicture": "./images/avatar-mark-webber.webp",
     "read": false,
     "comment": false,
-    "image": "false"
+    "image": false,
+    "imageSrc": ""
   },
   {
     "name": "Angela Gray",
@@ -16,10 +17,11 @@
     "post": "",
     "group": "",
     "time": "5m ago",
-    "profilePicture": "public/images/avatar-angela-gray.webp",
+    "profilePicture": "./images/avatar-angela-gray.webp",
     "read": false,
     "comment": false,
-    "image": "false"
+    "image": false,
+    "imageSrc": ""
   },
   {
     "name": "Jacob Thompson",
@@ -27,10 +29,11 @@
     "post": "",
     "group": "Chess Club",
     "time": "1 day ago",
-    "profilePicture": "public/images/avatar-jacob-thompson.webp",
+    "profilePicture": "./images/avatar-jacob-thompson.webp",
     "read": false,
     "comment": false,
-    "image": "false"
+    "image": false,
+    "imageSrc": ""
   },
   {
     "name": "Rizky Hasanuddin",
@@ -38,10 +41,11 @@
     "post": "",
     "group": "",
     "time": "5 days ago",
-    "profilePicture": "public/images/avatar-rizky-hasanuddin.webp",
+    "profilePicture": "./images/avatar-rizky-hasanuddin.webp",
     "read": true,
     "comment": "Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.",
-    "image": "false"
+    "image": false,
+    "imageSrc": ""
   },
   {
     "name": "Kimberly Smith",
@@ -49,10 +53,11 @@
     "post": "",
     "group": "",
     "time": "1 week ago",
-    "profilePicture": "public/images/avatar-kimberly-smith.webp",
+    "profilePicture": "./images/avatar-kimberly-smith.webp",
     "read": true,
     "comment": false,
-    "image": "public/images/image-chess.webp"
+    "image": true,
+    "imageSrc": "./images/image-chess.webp"
   },
   {
     "name": "Nathan Peterson",
@@ -60,10 +65,11 @@
     "post": "5 end-game strategies to increase your win rate",
     "group": "",
     "time": "2 weeks ago",
-    "profilePicture": "public/images/avatar-nathan-peterson.webp",
+    "profilePicture": "./images/avatar-nathan-peterson.webp",
     "read": true,
     "comment": false,
-    "image": "false"
+    "image": false,
+    "imageSrc": ""
   },
   {
     "name": "Anna Kim",
@@ -71,9 +77,10 @@
     "post": "",
     "group": "Chess Club",
     "time": "2 weeks ago",
-    "profilePicture": "public/images/avatar-anna-kim.webp",
+    "profilePicture": "./images/avatar-anna-kim.webp",
     "read": true,
     "comment": false,
-    "image": "false"
+    "image": false,
+    "imageSrc": ""
   }
 ]
