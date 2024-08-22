@@ -10,7 +10,7 @@ const Notifications = ({ data, click, read }) => {
 
   return (
     <>
-      <section className="flex flex-col gap-4">
+      <section className="flex flex-col gap-4 p-4">
         {data.map((i) => (
           <div className="flex flex-col gap-2" key={i.name}>
             {i.read === false && !clickedNotifications.has(i.name) ? (
@@ -20,10 +20,10 @@ const Notifications = ({ data, click, read }) => {
                 }`}
                 onClick={() => handleClick(i.name)}
               >
-                <img className="w-1/12" src={i.profilePicture} alt="Profile" />
+                <img className="w-12" src={i.profilePicture} alt="Profile" />
                 <div className="flex flex-1 items-center justify-between">
                   <div className="flex flex-col">
-                    <div className="flex gap-1">
+                    <div className="inline space-x-1 text-left">
                       <a href="#" className="font-extrabold hover:text-blue">
                         {i.name}
                       </a>
@@ -42,23 +42,25 @@ const Notifications = ({ data, click, read }) => {
                       >
                         {i.group}
                       </a>
-                      {!click.includes(i.name) && (
-                        <span className="text-red">•</span>
+                      {i.read === false && (
+                        <span className="font-black text-red">•</span>
                       )}
                     </div>
                     <span className="text-left font-medium text-grayishBlue">
                       {i.time}
                     </span>
                   </div>
-                  <img className="cursor-pointer" src={i.image} />
+                  {!i.image === "false" && (
+                    <img className="cursor-pointer" src={i.image} />
+                  )}
                 </div>
               </button>
             ) : (
               <div className="flex flex-1 items-center gap-2 rounded-lg p-4">
-                <img className="w-1/12" src={i.profilePicture} alt="Profile" />
+                <img className="w-12" src={i.profilePicture} alt="Profile" />
                 <div className="flex flex-1 items-center justify-between">
                   <div className="flex flex-col">
-                    <div className="flex gap-1">
+                    <div className="inline space-x-1 text-left">
                       <a href="#" className="font-extrabold hover:text-blue">
                         {i.name}
                       </a>
@@ -77,18 +79,17 @@ const Notifications = ({ data, click, read }) => {
                       >
                         {i.group}
                       </a>
-                      {!click.includes(i.name) && (
-                        <span className="text-red">•</span>
+                      {i.read === false && (
+                        <span className="font-black text-red">•</span>
                       )}
                     </div>
                     <span className="text-left font-medium text-grayishBlue">
                       {i.time}
                     </span>
                   </div>
-                  <img
-                    className="cursor-pointer object-contain"
-                    src={i.image}
-                  />
+                  {!i.image === "false" && (
+                    <img className="w-12 cursor-pointer" src={i.image} />
+                  )}
                 </div>
               </div>
             )}

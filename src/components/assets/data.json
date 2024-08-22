@@ -8,7 +8,7 @@
     "profilePicture": "public/images/avatar-mark-webber.webp",
     "read": false,
     "comment": false,
-    "image": ""
+    "image": "false"
   },
   {
     "name": "Angela Gray",
@@ -19,7 +19,7 @@
     "profilePicture": "public/images/avatar-angela-gray.webp",
     "read": false,
     "comment": false,
-    "image": ""
+    "image": "false"
   },
   {
     "name": "Jacob Thompson",
@@ -30,7 +30,7 @@
     "profilePicture": "public/images/avatar-jacob-thompson.webp",
     "read": false,
     "comment": false,
-    "image": ""
+    "image": "false"
   },
   {
     "name": "Rizky Hasanuddin",
@@ -41,7 +41,7 @@
     "profilePicture": "public/images/avatar-rizky-hasanuddin.webp",
     "read": true,
     "comment": "Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.",
-    "image": ""
+    "image": "false"
   },
   {
     "name": "Kimberly Smith",
@@ -63,7 +63,7 @@
     "profilePicture": "public/images/avatar-nathan-peterson.webp",
     "read": true,
     "comment": false,
-    "image": ""
+    "image": "false"
   },
   {
     "name": "Anna Kim",
@@ -74,6 +74,6 @@
     "profilePicture": "public/images/avatar-anna-kim.webp",
     "read": true,
     "comment": false,
-    "image": ""
+    "image": "false"
   }
 ]

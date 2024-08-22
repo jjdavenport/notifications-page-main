@@ -24,7 +24,7 @@ function App() {
 
   return (
     <>
-      <main className="flex flex-col gap-4 p-4 font-custom">
+      <main className="flex flex-col font-custom">
         <Header unreadCount={unreadCount} markAllAsRead={markAllAsRead} />
         <Notifications data={notifications} click={click} read={read} />
         <Footer />

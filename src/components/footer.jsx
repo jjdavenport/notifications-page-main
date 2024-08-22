@@ -1,12 +1,13 @@
 const Footer = () => {
   return (
-    <>
-      <footer className="flex justify-center gap-1 text-sm text-grayishBlue">
-        Challenge by
+    <footer className="w-full text-center text-sm text-grayishBlue">
+      <p>
+        Challenge by{" "}
         <a
           className="font-extrabold text-veryDarkBlue hover:text-blue"
           href="https://www.frontendmentor.io?ref=challenge"
           target="_blank"
+          rel="noopener noreferrer"
         >
           Frontend Mentor
         </a>
@@ -18,8 +19,8 @@ const Footer = () => {
           jjdavenport
         </a>
         .
-      </footer>
-    </>
+      </p>
+    </footer>
   );
 };
 
