@@ -29,7 +29,7 @@ function App() {
     <>
       {desktop ? (
         <div className="flex h-full min-h-screen flex-col justify-between bg-veryLightGrayishBlue">
-          <div className="flex flex-1 items-center justify-center">
+          <div className="flex flex-1 items-center justify-center py-8">
             <main className="flex max-w-[800px] flex-col rounded-lg bg-white p-4 font-custom">
               <Header unreadCount={unreadCount} markAllAsRead={markAllAsRead} />
               <Notifications data={notifications} click={click} read={read} />

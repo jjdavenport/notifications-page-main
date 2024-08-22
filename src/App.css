@@ -584,14 +584,6 @@ video {
   width: 100%;
 }
 
-.min-w-px{
-  min-width: 1px;
-}
-
-.min-w-\[800px\]{
-  min-width: 800px;
-}
-
 .max-w-\[800px\]{
   max-width: 800px;
 }
@@ -656,11 +648,6 @@ video {
   background-color: hsl(219 85% 26% / var(--tw-bg-opacity));
 }
 
-.bg-lightGrayishBlue2{
-  --tw-bg-opacity: 1;
-  background-color: hsl(205 33% 90% / var(--tw-bg-opacity));
-}
-
 .bg-veryLightGrayishBlue{
   --tw-bg-opacity: 1;
   background-color: hsl(210 60% 98% / var(--tw-bg-opacity));
@@ -671,22 +658,42 @@ video {
   background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
 }
 
-.bg-grayishBlue{
-  --tw-bg-opacity: 1;
-  background-color: hsl(219 14% 63% / var(--tw-bg-opacity));
-}
-
 .p-4{
   padding: 1rem;
 }
 
-.p-10{
-  padding: 2.5rem;
+.p-customClamp{
+  padding: clamp(0.5rem, -10.3571rem + 22.619vw, 10rem);
 }
 
 .px-3{
   padding-left: 0.75rem;
   padding-right: 0.75rem;
+}
+
+.py-customClamp{
+  padding-top: clamp(0.5rem, -10.3571rem + 22.619vw, 10rem);
+  padding-bottom: clamp(0.5rem, -10.3571rem + 22.619vw, 10rem);
+}
+
+.py-1{
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.py-4{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.py-6{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.py-8{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .text-left{
@@ -762,14 +769,6 @@ video {
 }
 
 @media (min-width: 768px){
-  .md\:w-96{
-    width: 24rem;
-  }
-
-  .md\:w-1\/2{
-    width: 50%;
-  }
-
   .md\:text-2xl{
     font-size: 1.5rem;
     line-height: 2rem;
