@@ -3,9 +3,6 @@ export default {
   content: ["./src/**/*.{js,jsx,ts,tsx}", "./index.html"],
   theme: {
     extend: {
-      padding: {
-        customClamp: "clamp(0.5rem, -10.3571rem + 22.619vw, 10rem)",
-      },
       fontFamily: {
         custom: ["plus jakarta sans", "sans-serif"],
       },
